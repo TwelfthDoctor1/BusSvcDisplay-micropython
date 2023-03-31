@@ -5,8 +5,8 @@ import utime
 from machine import RTC
 from Networking import connect_to_network
 
-SSID='TD1 WiFi' # Network SSID
-KEY='MrSirAdm@TD1Esquire'  # Network key
+SSID='' # Network SSID
+KEY=''  # Network key
 
 TIMESTAMP = 2208988800
 
