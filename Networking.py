@@ -8,7 +8,7 @@ def connect_to_network(ssid: str, key: str, timeout: int or float):
     
     while wlan.isconnected() is False:
         try:
-            wlan.connect(essid=ssid, key=key)
+            wlan.connect(ssid=ssid, key=key)
         
         except OSError as e:
             print(f"Error connecting via WiFi, retrying in {timeout} secs...")
